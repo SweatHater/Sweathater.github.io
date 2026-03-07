@@ -8,8 +8,6 @@ header{
 background:#111;
 color:white;
 padding:15px;
-position:sticky;
-top:0;
 }
 
 .container{
@@ -45,26 +43,9 @@ color:white;
 cursor:pointer;
 }
 
-.about{
-padding:60px;
-text-align:center;
-}
-
-.about-container{
-display:flex;
-align-items:center;
-gap:30px;
-justify-content:center;
-}
-
-.about img{
-width:300px;
-border-radius:8px;
-}
-
 .gallery{
 text-align:center;
-padding:60px;
+padding:40px;
 }
 
 .grid{
@@ -80,34 +61,10 @@ width:100%;
 border-radius:8px;
 }
 
-.contact{
-text-align:center;
-padding:60px;
-}
-
-form{
-display:flex;
-flex-direction:column;
-gap:10px;
-width:300px;
-margin:auto;
-}
-
-input, textarea{
-padding:10px;
-}
-
-button{
-padding:10px;
-background:black;
-color:white;
-border:none;
-cursor:pointer;
-}
-
 footer{
 background:#111;
 color:white;
 text-align:center;
 padding:20px;
+margin-top:40px;
 }
