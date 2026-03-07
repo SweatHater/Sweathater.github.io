@@ -1,12 +1,13 @@
 body{
-font-family:Arial;
+font-family: Arial;
 margin:0;
+background:#f4f4f4;
 }
 
 header{
 background:#111;
 color:white;
-padding:15px;
+padding:15px 0;
 }
 
 .container{
@@ -18,8 +19,8 @@ align-items:center;
 }
 
 nav ul{
-display:flex;
 list-style:none;
+display:flex;
 gap:20px;
 }
 
@@ -31,7 +32,15 @@ text-decoration:none;
 .hero{
 text-align:center;
 padding:100px 20px;
-background:#eee;
+background:#ddd;
+}
+
+.hero button{
+padding:10px 20px;
+border:none;
+background:black;
+color:white;
+cursor:pointer;
 }
 
 .gallery{
@@ -39,7 +48,7 @@ text-align:center;
 padding:40px;
 }
 
-.gallery-grid{
+.grid{
 display:grid;
 grid-template-columns:repeat(2,1fr);
 gap:20px;
@@ -47,21 +56,8 @@ width:70%;
 margin:auto;
 }
 
-.gallery img{
+.grid img{
 width:100%;
-}
-
-.contact{
-text-align:center;
-padding:40px;
-}
-
-form{
-display:flex;
-flex-direction:column;
-width:300px;
-margin:auto;
-gap:10px;
 }
 
 footer{
